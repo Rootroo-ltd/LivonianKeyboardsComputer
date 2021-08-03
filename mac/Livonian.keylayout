@@ -1111,7 +1111,7 @@
     <actions>
         <action id=" ">
             <when state="none" output=" "/>
-            <when state="s1" output="&#x0027;"/>
+            <when state="State 1" output="&#x0027;"/>
             <when state="s2" output="`"/>
             <when state="s3" output="∑"/>
             <when state="s4" output="¨"/>
@@ -1123,7 +1123,7 @@
         </action>
         <action id="A">
             <when state="none" output="A"/>
-            <when state="State 1" output="Ā"/>
+            <when state="s1" output="Ā"/>
             <when state="State 2" output="Ā"/>
             <when state="s2" output="Á"/>
             <when state="s4" output="Ä"/>
@@ -1131,20 +1131,20 @@
         </action>
         <action id="C">
             <when state="none" output="C"/>
-            <when state="State 1" output="Č"/>
+            <when state="s1" output="Č"/>
             <when state="State 2" output="Č"/>
             <when state="s2" output="Ć"/>
             <when state="s5" output="Č"/>
         </action>
         <action id="D">
             <when state="none" output="D"/>
-            <when state="State 1" output="Ḑ"/>
+            <when state="s1" output="Ḑ"/>
             <when state="State 2" output="Ḑ"/>
             <when state="s5" output="Ď"/>
         </action>
         <action id="E">
             <when state="none" output="E"/>
-            <when state="State 1" output="Ē"/>
+            <when state="s1" output="Ē"/>
             <when state="State 2" output="Ē"/>
             <when state="s2" output="É"/>
             <when state="s4" output="Ė"/>
@@ -1153,7 +1153,7 @@
         </action>
         <action id="G">
             <when state="none" output="G"/>
-            <when state="State 1" output="Ģ"/>
+            <when state="s1" output="Ģ"/>
             <when state="State 2" output="Ģ"/>
         </action>
         <action id="H">
@@ -1161,30 +1161,30 @@
         </action>
         <action id="I">
             <when state="none" output="I"/>
-            <when state="State 1" output="Ī"/>
+            <when state="s1" output="Ī"/>
             <when state="State 2" output="Ī"/>
             <when state="s2" output="Í"/>
             <when state="s6" output="Į"/>
         </action>
         <action id="J">
             <when state="none" output="J"/>
-            <when state="State 1" output="Ȱ"/>
+            <when state="s1" output="Ȱ"/>
             <when state="State 2" output="Ȱ"/>
-            <when state="s1" output="Ȯ"/>
+            <when state="State 1" output="Ȯ"/>
         </action>
         <action id="J 1">
             <when state="none" output="J"/>
-            <when state="State 1" output="Ȱ"/>
-            <when state="s1" output="Ȯ"/>
+            <when state="s1" output="Ȱ"/>
+            <when state="State 1" output="Ȯ"/>
         </action>
         <action id="K">
             <when state="none" output="K"/>
-            <when state="State 1" output="Ķ"/>
+            <when state="s1" output="Ķ"/>
             <when state="State 2" output="Ķ"/>
         </action>
         <action id="L">
             <when state="none" output="L"/>
-            <when state="State 1" output="Ļ"/>
+            <when state="s1" output="Ļ"/>
             <when state="State 2" output="Ļ"/>
             <when state="s2" output="Ĺ"/>
             <when state="s5" output="Ľ"/>
@@ -1192,25 +1192,25 @@
         </action>
         <action id="M">
             <when state="none" output="M"/>
-            <when state="State 1" output="Ȭ"/>
+            <when state="s1" output="Ȭ"/>
             <when state="State 2" output="Ȭ"/>
-            <when state="s1" output="Õ"/>
+            <when state="State 1" output="Õ"/>
         </action>
         <action id="M 1">
             <when state="none" output="M"/>
-            <when state="State 1" output="Ȭ"/>
-            <when state="s1" output="Õ"/>
+            <when state="s1" output="Ȭ"/>
+            <when state="State 1" output="Õ"/>
         </action>
         <action id="N">
             <when state="none" output="N"/>
-            <when state="State 1" output="Ņ"/>
+            <when state="s1" output="Ņ"/>
             <when state="State 2" output="Ņ"/>
             <when state="s2" output="Ń"/>
             <when state="s5" output="Ň"/>
         </action>
         <action id="O">
             <when state="none" output="O"/>
-            <when state="State 1" output="Ō"/>
+            <when state="s1" output="Ō"/>
             <when state="State 2" output="Ō"/>
             <when state="s2" output="Ó"/>
             <when state="s3" output="Ő"/>
@@ -1220,49 +1220,49 @@
         </action>
         <action id="P">
             <when state="none" output="P"/>
-            <when state="State 1" output="Ǭ"/>
+            <when state="s1" output="Ǭ"/>
             <when state="State 2" output="Ǭ"/>
-            <when state="s1" output="Ǫ"/>
+            <when state="State 1" output="Ǫ"/>
         </action>
         <action id="P 1">
             <when state="none" output="P"/>
-            <when state="State 1" output="Ǭ"/>
-            <when state="s1" output="Ǫ"/>
+            <when state="s1" output="Ǭ"/>
+            <when state="State 1" output="Ǫ"/>
         </action>
         <action id="Q">
             <when state="none" output="Q"/>
-            <when state="State 1" output="Ǟ"/>
+            <when state="s1" output="Ǟ"/>
             <when state="State 2" output="Ǟ"/>
-            <when state="s1" output="Ä"/>
+            <when state="State 1" output="Ä"/>
         </action>
         <action id="Q 1">
             <when state="none" output="Q"/>
-            <when state="State 1" output="Ǟ"/>
-            <when state="s1" output="Ä"/>
+            <when state="s1" output="Ǟ"/>
+            <when state="State 1" output="Ä"/>
         </action>
         <action id="R">
             <when state="none" output="R"/>
-            <when state="State 1" output="Ŗ"/>
+            <when state="s1" output="Ŗ"/>
             <when state="State 2" output="Ŗ"/>
             <when state="s2" output="Ŕ"/>
             <when state="s5" output="Ř"/>
         </action>
         <action id="S">
             <when state="none" output="S"/>
-            <when state="State 1" output="Š"/>
+            <when state="s1" output="Š"/>
             <when state="State 2" output="Š"/>
             <when state="s2" output="Ś"/>
             <when state="s5" output="Š"/>
         </action>
         <action id="T">
             <when state="none" output="T"/>
-            <when state="State 1" output="Ț"/>
+            <when state="s1" output="Ț"/>
             <when state="State 2" output="Ț"/>
             <when state="s5" output="Ť"/>
         </action>
         <action id="U">
             <when state="none" output="U"/>
-            <when state="State 1" output="Ū"/>
+            <when state="s1" output="Ū"/>
             <when state="State 2" output="Ū"/>
             <when state="s2" output="Ú"/>
             <when state="s3" output="Ű"/>
@@ -1271,31 +1271,31 @@
         </action>
         <action id="W">
             <when state="none" output="W"/>
-            <when state="State 1" output="Ǖ"/>
+            <when state="s1" output="Ǖ"/>
             <when state="State 2" output="Ǖ"/>
-            <when state="s1" output="Ü"/>
+            <when state="State 1" output="Ü"/>
             <when state="s4" output="Ů"/>
         </action>
         <action id="X">
             <when state="none" output="X"/>
-            <when state="State 1" output="Ȫ"/>
+            <when state="s1" output="Ȫ"/>
             <when state="State 2" output="Ȫ"/>
-            <when state="s1" output="Ö"/>
+            <when state="State 1" output="Ö"/>
         </action>
         <action id="X 1">
             <when state="none" output="X"/>
-            <when state="State 1" output="Ȫ"/>
-            <when state="s1" output="Ö"/>
+            <when state="s1" output="Ȫ"/>
+            <when state="State 1" output="Ö"/>
         </action>
         <action id="Y">
             <when state="none" output="Y"/>
-            <when state="State 1" output="Ȳ"/>
+            <when state="s1" output="Ȳ"/>
             <when state="State 2" output="Ȳ"/>
             <when state="s2" output="Ý"/>
         </action>
         <action id="Z">
             <when state="none" output="Z"/>
-            <when state="State 1" output="Ž"/>
+            <when state="s1" output="Ž"/>
             <when state="State 2" output="Ž"/>
             <when state="s2" output="Ź"/>
             <when state="s4" output="Ż"/>
@@ -1306,25 +1306,25 @@
         </action>
         <action id="a">
             <when state="none" output="a"/>
-            <when state="State 1" output="ā"/>
+            <when state="s1" output="ā"/>
             <when state="s2" output="á"/>
             <when state="s4" output="ä"/>
             <when state="s6" output="ą"/>
         </action>
         <action id="c">
             <when state="none" output="c"/>
-            <when state="State 1" output="č"/>
+            <when state="s1" output="č"/>
             <when state="s2" output="ć"/>
             <when state="s5" output="č"/>
         </action>
         <action id="d">
             <when state="none" output="d"/>
-            <when state="State 1" output="ḑ"/>
+            <when state="s1" output="ḑ"/>
             <when state="s5" output="ď"/>
         </action>
         <action id="e">
             <when state="none" output="e"/>
-            <when state="State 1" output="ē"/>
+            <when state="s1" output="ē"/>
             <when state="s2" output="é"/>
             <when state="s4" output="ė"/>
             <when state="s5" output="ě"/>
@@ -1332,44 +1332,44 @@
         </action>
         <action id="g">
             <when state="none" output="g"/>
-            <when state="State 1" output="ģ"/>
+            <when state="s1" output="ģ"/>
         </action>
         <action id="i">
             <when state="none" output="i"/>
-            <when state="State 1" output="ī"/>
+            <when state="s1" output="ī"/>
             <when state="s2" output="í"/>
             <when state="s6" output="į"/>
         </action>
         <action id="j">
             <when state="none" output="j"/>
-            <when state="State 1" output="ȱ"/>
-            <when state="s1" output="ȯ"/>
+            <when state="s1" output="ȱ"/>
+            <when state="State 1" output="ȯ"/>
         </action>
         <action id="k">
             <when state="none" output="k"/>
-            <when state="State 1" output="ķ"/>
+            <when state="s1" output="ķ"/>
         </action>
         <action id="l">
             <when state="none" output="l"/>
-            <when state="State 1" output="ļ"/>
+            <when state="s1" output="ļ"/>
             <when state="s2" output="ĺ"/>
             <when state="s5" output="ľ"/>
             <when state="s6" output="ł"/>
         </action>
         <action id="m">
             <when state="none" output="m"/>
-            <when state="State 1" output="ȭ"/>
-            <when state="s1" output="õ"/>
+            <when state="s1" output="ȭ"/>
+            <when state="State 1" output="õ"/>
         </action>
         <action id="n">
             <when state="none" output="n"/>
-            <when state="State 1" output="ņ"/>
+            <when state="s1" output="ņ"/>
             <when state="s2" output="ń"/>
             <when state="s5" output="ň"/>
         </action>
         <action id="o">
             <when state="none" output="o"/>
-            <when state="State 1" output="ō"/>
+            <when state="s1" output="ō"/>
             <when state="s2" output="ó"/>
             <when state="s3" output="ő"/>
             <when state="s4" output="ö"/>
@@ -1378,13 +1378,13 @@
         </action>
         <action id="p">
             <when state="none" output="p"/>
-            <when state="State 1" output="ǭ"/>
-            <when state="s1" output="ǫ"/>
+            <when state="s1" output="ǭ"/>
+            <when state="State 1" output="ǫ"/>
         </action>
         <action id="q">
             <when state="none" output="q"/>
-            <when state="State 1" output="ǟ"/>
-            <when state="s1" output="ä"/>
+            <when state="s1" output="ǟ"/>
+            <when state="State 1" output="ä"/>
         </action>
         <action id="quote">
             <when state="none" next="State 1"/>
@@ -1394,24 +1394,24 @@
         </action>
         <action id="r">
             <when state="none" output="r"/>
-            <when state="State 1" output="ŗ"/>
+            <when state="s1" output="ŗ"/>
             <when state="s2" output="ŕ"/>
             <when state="s5" output="ř"/>
         </action>
         <action id="s">
             <when state="none" output="s"/>
-            <when state="State 1" output="š"/>
+            <when state="s1" output="š"/>
             <when state="s2" output="ś"/>
             <when state="s5" output="š"/>
         </action>
         <action id="t">
             <when state="none" output="t"/>
-            <when state="State 1" output="ț"/>
+            <when state="s1" output="ț"/>
             <when state="s5" output="ť"/>
         </action>
         <action id="u">
             <when state="none" output="u"/>
-            <when state="State 1" output="ū"/>
+            <when state="s1" output="ū"/>
             <when state="s2" output="ú"/>
             <when state="s3" output="ű"/>
             <when state="s4" output="ü"/>
@@ -1419,23 +1419,23 @@
         </action>
         <action id="w">
             <when state="none" output="w"/>
-            <when state="State 1" output="ǖ"/>
-            <when state="s1" output="ü"/>
+            <when state="s1" output="ǖ"/>
+            <when state="State 1" output="ü"/>
             <when state="s4" output="ů"/>
         </action>
         <action id="x">
             <when state="none" output="x"/>
-            <when state="State 1" output="ȫ"/>
-            <when state="s1" output="ö"/>
+            <when state="s1" output="ȫ"/>
+            <when state="State 1" output="ö"/>
         </action>
         <action id="y">
             <when state="none" output="y"/>
-            <when state="State 1" output="ȳ"/>
+            <when state="s1" output="ȳ"/>
             <when state="s2" output="ý"/>
         </action>
         <action id="z">
             <when state="none" output="z"/>
-            <when state="State 1" output="ž"/>
+            <when state="s1" output="ž"/>
             <when state="s2" output="ź"/>
             <when state="s4" output="ż"/>
             <when state="s5" output="ž"/>
@@ -1457,9 +1457,9 @@
         </action>
     </actions>
     <terminators>
-        <when state="State 1" output=""/>
+        <when state="s1" output=""/>
         <when state="State 2" output=""/>
-        <when state="s1" output="&#x0027;"/>
+        <when state="State 1" output="&#x0027;"/>
         <when state="s2" output="`"/>
         <when state="s3" output="∑"/>
         <when state="s4" output="¨"/>
