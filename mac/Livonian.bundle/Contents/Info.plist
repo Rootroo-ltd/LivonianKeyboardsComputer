@@ -5,15 +5,24 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.livoniankeyboard(rootroo)</string>
 	<key>CFBundleName</key>
-	<string>Livonian Keyboard (Rootroo)</string>
+	<string>Livonian</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>KLInfo_Livonian</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.livoniankeyboard(rootroo).livonian</string>
+		<key>TISIntendedLanguage</key>
+		<string>liv-LV</string>
+	</dict>
+	<key>KLInfo_Livonian for Valts</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.livoniankeyboard(rootroo).livonianforvalts</string>
 		<key>TISIntendedLanguage</key>
 		<string>liv-LV</string>
 	</dict>
