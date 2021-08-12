@@ -1,0 +1,20 @@
+<!--   inside <xkbConfigRegistry> <layoutList> -->
+<layout>
+      <configItem>
+        <name>liv</name>
+        <!-- Keyboard indicator for Latvian layouts -->
+        <shortDescription>liv</shortDescription>
+        <description>Livonian</description>
+        <languageList>
+          <iso639Id>liv</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>basic</name>
+            <description>Livonian layout</description>
+          </configItem>
+        </variant>
+   </variantList>
+    </layout>

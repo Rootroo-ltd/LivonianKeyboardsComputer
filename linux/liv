@@ -22,7 +22,6 @@ xkb_symbols "basic" {
 	key <AD08> {[ i,		I,		imacron,		Imacron			]};
 	key <AD09> {[ o,		O,		omacron,		Omacron			]};
 	key <AD11> {[ bracketleft,	braceleft,	guillemotleft,		leftdoublequotemark	]};
-	key <AD12> {[ bracketright,	braceright,	guillemotright,		rightdoublequotemark	]};
 
 	key <AC01> {[ a,		A,		amacron,		Amacron			]};
 	key <AC04> {[ f,		F,		f,			F			]};
@@ -39,9 +38,12 @@ xkb_symbols "basic" {
 	key <BKSL> {[ backslash,	bar,		grave,			breve			]};
 
 	key <SPCE> {[ space,		space,		space,			space			]};
-	key <AD12> { [  dead_macron, dead_diaeresis,  dead_circumflex,  dead_tilde] };
+	key <AC11> { [  dead_macron, dead_diaeresis,  dead_circumflex,  dead_tilde] };
 
+	key <RALT> {[Level5_Shift, asciitilde, grave, acute]};
+  modifier_map Mod5 { <RALT> };
 	include "level5(ralt_switch)"
+
 	key.type[Group1] = "EIGHT_LEVEL";
 
 	key <AD01> {[ q,		Q,		q,			Q			, adiaeresis,      Adiaeresis]};
